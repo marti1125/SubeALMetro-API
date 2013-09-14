@@ -13,3 +13,18 @@ dist
 /.project
 /RUNNING_PID
 /.settings
+
+*.class
+*~
+# Package Files #
+*.war
+*.ear
+*.jar
+
+modules/
+tmp/
+.settings/
+eclipse/
+nbproject/
+.project
+.classpath
