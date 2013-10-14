@@ -15,7 +15,7 @@ public class Application extends Controller {
 
 		public String validate() {
 			if (Usuario.authenticate(usuario, contrasenha) == null) {
-				return "Invalid user or password";
+				return "Usuario o contraseña invalida";
 			}
 			return null;
 		}
@@ -44,7 +44,7 @@ public class Application extends Controller {
 	
 	public static Result logout() {
 	    session().clear();
-	    flash("success", "You've been logged out");
+	    flash("success", "Sesion terminada");
 	    return redirect(
 	        routes.Application.login()
 	    );
