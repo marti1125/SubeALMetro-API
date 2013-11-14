@@ -1,11 +1,11 @@
 Sube al Metro Backend (Java Project)
 ===================
-It's using play framework 2.2.0 - Java | Scala
-
+It's using play framework 1.2.5.3 - Java
 for run the project:
 
+* play deps --sync
 * play run
 
 for start project with Eclipse:
 
-* (eclipse) play eclipse
+* play eclipsify
