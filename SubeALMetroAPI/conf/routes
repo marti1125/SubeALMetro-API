@@ -31,4 +31,4 @@ DELETE  /${type.controllerName}/{id}            ${type.controllerClass.name.subs
 GET     /                                       CRUD.index
 
 #Rest
-GET		/listarEstaciones					    Estaciones.listaDeEstaciones
+GET		/listarEstaciones					    Rest.listaDeEstaciones

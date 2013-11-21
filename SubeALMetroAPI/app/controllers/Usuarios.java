@@ -1,9 +1,9 @@
 package controllers;
 
-import models.Estacion;
 import play.mvc.With;
+import models.Usuario;
 
 @With(Secure.class)
-public class Estaciones extends CRUD {
-		
+public class Usuarios extends CRUD {
+
 }
