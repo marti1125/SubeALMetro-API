@@ -1,0 +1,5 @@
+Usuario(esAdministrador):
+    usuario: admin
+    clave: secret
+    nombreCompleto: Willy Aguirre
+    esAdministrador: true
