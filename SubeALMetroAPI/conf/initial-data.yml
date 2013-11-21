@@ -3,3 +3,11 @@ Usuario(esAdministrador):
     clave: secret
     nombreCompleto: Willy Aguirre
     esAdministrador: true
+
+Estacion:
+    codigo: VES
+    nombreEstacion: Villa El Salvador
+    distrito: Villa El Salvador
+    ubicacion: Av. Separadora Industrial / Av. Velasco Alvarado
+    posicionLatitud: -12.207415
+    posicionLongitud: -76.933404
