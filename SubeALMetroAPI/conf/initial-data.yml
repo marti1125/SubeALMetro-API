@@ -4,7 +4,7 @@ Usuario(esAdministrador):
     nombreCompleto: Willy Aguirre
     esAdministrador: true
 
-Estacion:
+Estacion(ves):
     codigo: VES
     nombreEstacion: Villa El Salvador
     distrito: Villa El Salvador
