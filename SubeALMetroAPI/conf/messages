@@ -1,3 +1,16 @@
 # You can specialize this file for each language.
 # For example, for French create a messages.fr file
 #
+crud.list.size=
+crud.add=Agregar
+crud.help.required=Requerido
+nombreCompleto=Nombre Completo
+esAdministrador=¿Es Administrador?
+crud.save=Guardar
+crud.saveAndContinue=Guardar y Continuar
+crud.saveAndAddAnother=Guardar y Agregar Otro
+crud.search=Buscar
+crud.delete=Retirar
+crud.list.title=Sube Al Metro
+crud.show.title=Sube Al Metro
+crud.blank.title=Sube Al Metro

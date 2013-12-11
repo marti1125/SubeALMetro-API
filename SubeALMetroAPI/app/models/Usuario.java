@@ -18,7 +18,6 @@ public class Usuario extends Model{
 	@Required
 	public String nombreCompleto;
 
-	@Required
 	public boolean esAdministrador;	
 	
 	public Usuario(String usuario, String clave, String nombreCompleto){
