@@ -8,6 +8,6 @@ Estacion(ves):
     codigo: VES
     nombreEstacion: Villa El Salvador
     distrito: Villa El Salvador
-    ubicacion: Av. Separadora Industrial / Av. Velasco Alvarado
+    direccion: Av. Separadora Industrial / Av. Velasco Alvarado
     posicionLatitud: -12.207415
     posicionLongitud: -76.933404

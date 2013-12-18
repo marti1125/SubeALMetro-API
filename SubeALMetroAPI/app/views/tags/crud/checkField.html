@@ -1,4 +1,5 @@
 #{field 'object.' + _name}
+<div class="checkbox">
     <label for="${field.id}">
         &{_name}
     </label>
@@ -7,4 +8,5 @@
     #{ifError field.name}
         <span class="error">${field.error.raw()}</span>
     #{/ifError}
+</div>
 #{/field}
