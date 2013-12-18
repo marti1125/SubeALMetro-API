@@ -9,3 +9,7 @@ for run the project:
 for start project with Eclipse:
 
 * play eclipsify
+
+Run in different port
+
+* play run --http.port=8080
