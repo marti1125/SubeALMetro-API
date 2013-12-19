@@ -13,7 +13,8 @@ public class Estacion extends GenericModel{
 	@Id
 	public String codigo;
 	public String nombreEstacion;
-	public String distrito;
+	@ManyToOne
+    public Distrito distrito;
 	public String direccion;
 	public double posicionLatitud;
 	public double posicionLongitud;

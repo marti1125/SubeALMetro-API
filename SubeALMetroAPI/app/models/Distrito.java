@@ -13,4 +13,8 @@ public class Distrito extends GenericModel{
 	
 	public String nombreDelDistrito;
 	
+	public String toString(){
+		return this.nombreDelDistrito;
+	}
+	
 }

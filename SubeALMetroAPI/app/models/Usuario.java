@@ -37,6 +37,5 @@ public class Usuario extends Model{
 		}
 		return nombreCompleto + ' ' + adm;
 	}
-	
 
 }
