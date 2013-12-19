@@ -1,6 +1,7 @@
 package models;
 
 import java.util.*;
+
 import javax.persistence.*;
 
 import play.data.validation.*;
@@ -17,8 +18,8 @@ public class Estacion extends GenericModel{
 	public double posicionLatitud;
 	public double posicionLongitud;
 	
-	@ManyToMany(cascade = CascadeType.ALL)
-    public List<Horario> horarios = new ArrayList<Horario>();
+	@OneToMany(mappedBy = "estacion")
+    public List<Horario> horarios;
 	
 	public String toString(){
 		return this.nombreEstacion;

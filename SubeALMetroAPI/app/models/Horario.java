@@ -10,15 +10,15 @@ import play.db.jpa.*;
 @Entity
 public class Horario extends GenericModel{
 	
+	@ManyToOne
+	public Estacion estacion;
+	
 	@Id
-	@Required
-	String codigo;
+	public String codigo;
 	
-	@Required
-	String rumboAGrau;
+	public String rumboAGrau;
 	
-	@Required
-	String rumboAVes;
+	public String rumboAVes;
 	
 	public String toString(){
 		return this.rumboAGrau + " - " + this.rumboAVes;

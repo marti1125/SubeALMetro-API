@@ -15,6 +15,20 @@
                 <h2 id="crudBlankTitle">Estacion</h2>
 
                 <div class="objectForm">
+                	
+                #{if flash.success}
+			    <div class="alert alert-success">
+			        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+			        <strong>¡Exito!</strong>${flash.success}
+			    </div>
+			    #{/if}
+			    #{if flash.error || error}
+			    <div class="alert alert-danger">
+			        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+			        <strong>¡Error!</strong> ${error ?: flash.error}
+			    </div>
+			    #{/if}
+                
                 #{form action:@create(), enctype:'multipart/form-data'}
                     #{crud.form /}
                     <p class="crudButtons">
