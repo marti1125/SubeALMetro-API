@@ -6,15 +6,29 @@
 
             <ul class="breadcrumb">
                 <li><a href="/">Inicio</a></li>
-                <li><a href="/estaciones/list">Estaciones</a></li>
-                <li class="active">Nueva Estacion</li>
+                <li><a href="/horarios/list">Horarios</a></li>
+                <li class="active">Nuevo Horario</li>
             </ul>
 
             <div id="crudBlank" class="${type.name}">
 
-                <h2 id="crudBlankTitle">Estacion</h2>
+                <h2 id="crudBlankTitle">Horario</h2>
 
                 <div class="objectForm">
+                
+                #{if flash.success}
+			    <div class="alert alert-success">
+			        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+			        <strong>¡Exito!</strong>${flash.success}
+			    </div>
+			    #{/if}
+			    #{if flash.error || error}
+			    <div class="alert alert-danger">
+			        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+			        <strong>¡Error!</strong> ${error ?: flash.error}
+			    </div>
+			    #{/if}
+                
                 #{form action:@create(), enctype:'multipart/form-data'}
                     #{crud.form /}
                     <p class="crudButtons">

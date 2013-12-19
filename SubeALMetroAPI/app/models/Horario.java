@@ -11,13 +11,17 @@ import play.db.jpa.*;
 public class Horario extends GenericModel{
 	
 	@Id
+	@Required
 	String codigo;
+	
 	@Required
 	String rumboAGrau;
+	
 	@Required
 	String rumboAVes;
 	
-	@ManyToMany(mappedBy = "horarios")
-    public List<Estacion> estaciones = new ArrayList<Estacion>();
+	public String toString(){
+		return this.rumboAGrau + " - " + this.rumboAVes;
+	}
 
 }

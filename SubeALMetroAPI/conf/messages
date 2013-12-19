@@ -24,3 +24,5 @@ direccion = Dirección
 posicionLatitud = Latitud
 posicionLongitud = Longitud
 horarios=Horarios
+rumboAGrau = Rumbo a Grau
+rumboAVes = Rumbo a Villa El Salvador
