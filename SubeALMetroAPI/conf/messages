@@ -31,3 +31,5 @@ crud.none= -- Seleccione --
 lunesAViernes = Lunes a Viernes
 sabados=Sabados
 domingosYFeriados=Domingos y Feriados
+codigoPostal= Código Postal
+nombreDelDistrito = Distrito
