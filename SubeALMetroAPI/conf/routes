@@ -31,4 +31,7 @@ DELETE  /${type.controllerName}/{id}            ${type.controllerClass.name.subs
 GET     /                                       CRUD.index
 
 #Rest
-GET		/listarEstaciones					    Rest.listaDeEstaciones
+GET		/listaDeHorariosMasEstaciones					    Rest.listaDeHorariosMasEstaciones
+GET     /listaDeHorariosMasEstacionesLV						Rest.listaDeHorariosMasEstacionesLV
+GET     /listaDeHorariosMasEstacionesSabados                Rest.listaDeHorariosMasEstacionesSabados
+GET     /listaDeHorariosMasEstacionesDomingosYFeriados      Rest.listaDeHorariosMasEstacionesDomingosYFeriados

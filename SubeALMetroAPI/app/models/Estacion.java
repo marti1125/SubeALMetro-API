@@ -4,6 +4,8 @@ import java.util.*;
 
 import javax.persistence.*;
 
+import org.codehaus.jackson.annotate.JsonIgnore;
+
 import play.data.validation.*;
 import play.db.jpa.*;
 
