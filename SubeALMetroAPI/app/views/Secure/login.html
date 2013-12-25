@@ -4,9 +4,9 @@
 <div class="container">
 
 	<div id="login">
-			
+		
 		#{form @authenticate(), class:'form-signin', role:'form'}
-			
+			<h2>Sube Al Metro</h2><hr/>
 			#{if flash.error}
 				<div class="alert alert-danger">
 	                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
@@ -18,7 +18,7 @@
 					<strong>¡Exito! </strong> &{flash.success}
 				</div>
 			#{/if}
-	        <h2 class="form-signin-heading">Por favor, identifíquese</h2>
+	        <h4 class="form-signin-heading">Por favor, identifíquese</h4>
 		   
 	        <p>
 	            <input placeholder="Usuario" class="form-control" type="text" name="username" id="username" maxlength="30" value="${flash.username}" required />
