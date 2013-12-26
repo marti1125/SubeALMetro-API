@@ -13,3 +13,7 @@ for start project with Eclipse:
 Run in different port
 
 * play run --http.port=8080
+
+[Deploy](http://www.playframework.com/documentation/1.2.5/deployment#appservers)
+
+* play war SubeAlMetroApi -o SubeAlMetroApi --zip
