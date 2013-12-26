@@ -16,4 +16,4 @@ Run in different port
 
 [Deploy](http://www.playframework.com/documentation/1.2.5/deployment#appservers)
 
-* play war SubeAlMetroApi -o SubeAlMetroApi --zip
+* play war SubeAlMetroApi -o SubeAlMetroApi.war --zip
