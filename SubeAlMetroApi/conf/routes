@@ -1,0 +1,37 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                                       Application.index
+
+# Ignore favicon requests
+GET     /favicon.ico                            404
+
+# Map static resources from the /app/public folder to the /public path
+GET     /public/                                staticDir:public
+
+# Catch all
+*       /{controller}/{action}                  {controller}.{action}
+
+# Routes for the CRUD module
+# ~~~~~~~~~~~
+
+#{crud.types}
+GET		/?                                      ${type.controllerClass.name.substring(12).replace('$','')}.index
+GET     /${type.controllerName}                 ${type.controllerClass.name.substring(12).replace('$','')}.list
+GET     /${type.controllerName}/new             ${type.controllerClass.name.substring(12).replace('$','')}.blank
+GET     /${type.controllerName}/{id}            ${type.controllerClass.name.substring(12).replace('$','')}.show
+GET     /${type.controllerName}/{id}/{field}    ${type.controllerClass.name.substring(12).replace('$','')}.attachment
+GET     /${type.controllerName}/{id}/edit       ${type.controllerClass.name.substring(12).replace('$','')}.edit
+POST    /${type.controllerName}                 ${type.controllerClass.name.substring(12).replace('$','')}.create
+POST    /${type.controllerName}/{id}            ${type.controllerClass.name.substring(12).replace('$','')}.save
+DELETE  /${type.controllerName}/{id}            ${type.controllerClass.name.substring(12).replace('$','')}.delete
+#{/crud.types}
+GET     /                                       CRUD.index
+
+#Rest
+GET		/listaDeHorariosMasEstaciones					    Rest.listaDeHorariosMasEstaciones
+GET     /listaDeHorariosMasEstacionesLV						Rest.listaDeHorariosMasEstacionesLV
+GET     /listaDeHorariosMasEstacionesSabados                Rest.listaDeHorariosMasEstacionesSabados
+GET     /listaDeHorariosMasEstacionesDomingosYFeriados      Rest.listaDeHorariosMasEstacionesDomingosYFeriados
