@@ -1,19 +1,22 @@
 Sube al Metro API v1 (Java Project)
 ===================================
-It's using play framework 1.2.5.3 - Java
-for run the project:
+
+Servidor(*por revisar): [http://jetty.willyaguirre.me/secure/login](http://jetty.willyaguirre.me/secure/login)
+
+Esta usando play framework 1.2.5.3 - Java
+para ejecutar el proyecto:
 
 * play deps --sync
 * play run
 
-for start project with Eclipse:
+Para desarrollar con Eclipse IDE:
 
 * play eclipsify
 
-Run in different port
+Ejecutar en diferente puerto:
 
 * play run --http.port=8080
 
-[Deploy](http://www.playframework.com/documentation/1.2.5/deployment#appservers)
+[Despliegue](http://www.playframework.com/documentation/1.2.5/deployment#appservers)
 
 * play war SubeAlMetroApi -o SubeAlMetroApi.war --zip

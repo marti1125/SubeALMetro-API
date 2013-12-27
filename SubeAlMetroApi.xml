@@ -19,7 +19,7 @@ detected.
   <!--  + war OR resourceBase                                          -->
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <Set name="contextPath">/</Set>
-  <Set name="war"><SystemProperty name="jetty.home" default="."/>/webapps/SubeALMetroAPI.war</Set>
+  <Set name="war"><SystemProperty name="jetty.home" default="."/>/webapps/SubeAlMetroApi.war</Set>
 
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   <!-- Optional context configuration                                  -->
