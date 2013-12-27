@@ -1,7 +1,7 @@
 Sube al Metro API v1 (Java Project)
 ===================================
 
-Servidor(*por revisar): [http://jetty.willyaguirre.me/secure/login](http://jetty.willyaguirre.me/secure/login)
+Servidor: [http://api.subealmetro.com/](http://api.subealmetro.com/)
 
 Esta usando play framework 1.2.5.3 - Java
 para ejecutar el proyecto:
@@ -20,3 +20,11 @@ Ejecutar en diferente puerto:
 [Despliegue](http://www.playframework.com/documentation/1.2.5/deployment#appservers)
 
 * play war SubeAlMetroApi -o SubeAlMetroApi.war --zip
+
+Servidor - Jetty 7.6.14
+
+[configuracion del servidor](http://willyaguirre.me/?p=584)
+
+Base de datos MySQL
+
+* subealmetro.sql (respaldo)
