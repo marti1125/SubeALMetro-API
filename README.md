@@ -1,7 +1,7 @@
 Sube al Metro API v1 (Java Project)
 ===================================
 
-Servidor: [http://api.subealmetro.com/](http://api.subealmetro.com/)
+Servidor Jelastic: [http://env-4792205.jelastic.websolute.net.br/estaciones/](http://env-4792205.jelastic.websolute.net.br/estaciones/)
 
 Esta usando play framework 1.2.5.3 - Java
 para ejecutar el proyecto:
