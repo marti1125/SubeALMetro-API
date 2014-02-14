@@ -28,3 +28,6 @@ Servidor - Jetty 7.6.14
 Base de datos MySQL
 
 * subealmetro.sql (respaldo)
+
+Hacer deploy
+Wiki sobre [¿Comó hacer deploy?](https://github.com/marti1125/SubeALMetro-API/wiki/Deploy)
